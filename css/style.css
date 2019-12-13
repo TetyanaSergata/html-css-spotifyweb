@@ -14,6 +14,9 @@ body {
   background-color: red;
 }
 
+.color_white{
+  color: white;
+}
 /* Fixed */
 footer {
   position: fixed;
@@ -24,6 +27,9 @@ footer {
   background-color: pink;
 }
 
+.vertical_align_middle{
+  vertical-align: middle;
+}
 
 /* Float */
 /* .main {
@@ -76,6 +82,41 @@ footer {
 .main-nav-header {
   background-color: purple;
 }
+
+.logo_box{
+  padding: 15px;
+}
+
+.logo_box img{
+  vertical-align: middle;
+  color: white;
+}
+
+.main-nav-header h1{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 21px;
+}
+
+/* list_box */
+
+.menu_box{
+  margin: 10px;
+}
+
+.list_box img{
+  width: 27px;
+  height: auto;
+  margin-right: 5px;
+}
+.list_box a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
@@ -172,18 +213,6 @@ footer {
   width: 100%;
 }
 
-/* .image_box .flex-item{
-  width: calc (100% / 6);
-  justify-content: space-between;
-  background-color: yellow;
-  flex-wrap: wrap;
-  margin: 10px 10px;
-  flex-basis: 350px;
-} */
-
-/* .image_box .flex-item img{
-  width: 100%;
-} */
 
 
 
@@ -210,16 +239,6 @@ footer {
 
   }
 
-  /* .flex-container.cover{
-  flex-wrap: wrap;
-  } */
-
-  /* .image_box{
-    flex-wrap: wrap;
-  } */
-  /* .cover img{
-    width: calc(100% / 3);
-  } */
 }
 
 /* S */
@@ -230,27 +249,15 @@ footer {
   .flex-container.menu li{
     flex-basis: calc(100% / 3);
   }
-  /* .cover{
-    width: calc(100% / 2);
-  } */
+
 
   .image_box{
     flex-wrap: wrap;
     justify-content: flex-start;
-  } 
+  }
   .image_box .cover{
     width: calc(60% / 2);
   }
-  /* .flex-item{
-    flex-wrap: wrap;
-  } */
-
-  /* .flex-container.cover{
-  flex-wrap: wrap;
-  } */
-  /* .image_box{
-    flex-wrap: wrap;
-  } */
 
 }
 
@@ -267,13 +274,7 @@ footer {
   .image_box .cover{
     width: calc(60% / 2);
   }
-  /* .flex-container.cover{
-  flex-wrap: wrap;
-  } */
 
-  /* .image_box{
-    flex-wrap: wrap;
-  } */
 
 }
 
@@ -285,15 +286,5 @@ footer {
     flex-basis: calc(100% / 3);
   }
 
-  /* .image_box{
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  } */
-  /* .flex-container.cover{
-    flex-wrap: wrap;
-  } */
 
-  /* .image_box{
-    flex-wrap: wrap;
-  } */
 }
