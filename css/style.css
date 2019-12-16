@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: black;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .wrapper {
@@ -29,6 +29,10 @@ body {
 
 .padding_15{
   padding: 15px;
+}
+
+.padding_bottom_20{
+  padding-bottom: 20px;
 }
 
 .img{
@@ -227,7 +231,8 @@ footer {
   height: 100%;
   margin-left: 200px;
   padding: 20px;
-  background-color: white;
+  /* background-color: #141327; */
+  background-color: #0A0A17;
   overflow-y: scroll;
 }
 .call-to-action {
@@ -240,12 +245,19 @@ footer {
   width: calc(100% - 200px);
   height: 90px;
   padding: 5px;
+  padding-right: 35px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .btn {
   display: inline-block;
-  font-size: 20px;
-  background-color: white;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 15%;
+  padding: 10px;
+  color: white;
 }
 
 /* Main context_menu */
@@ -253,7 +265,6 @@ footer {
   width: 100%;
   padding-top: 90px;
   /* background-color: lightgreen; */
-
 }
 
 .flex-container{
@@ -267,12 +278,19 @@ footer {
   padding: 0 10px;
   /* background-color: lightpink; */
 }
+
 .flex-container.menu li a{
-  font-size: 18px;
+  font-size: 11px;
   font-weight: bold;
   color: #626262;
+  text-transform: uppercase;
   text-decoration: none;
 
+}
+
+.title_center h2{
+  font-size: 23px;
+  color: white;
 }
 
 .list-item{
@@ -284,7 +302,7 @@ footer {
 /* Image part */
 .image_box{
   /* width: 100%; */
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 
 .image_box{
@@ -296,7 +314,7 @@ footer {
 
 .cover{
   width: calc(100% / 6);
-  margin: 20px;
+  margin: 10px;
 }
 
 .cover img{
